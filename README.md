@@ -1,6 +1,6 @@
 # LSpec
 
-A testing framework for Lean 4, inspired by Haskell's [Hspec](https://hspec.github.io/) package.
+A testing and benchmarking framework for Lean 4, inspired by Haskell's [Hspec](https://hspec.github.io/) package.
 
 ## Usage
 
@@ -177,3 +177,7 @@ jobs:
       - name: run LSpec binary
         run: lake exe lspec
 ```
+
+## Benchmarking
+
+TODO: Add documentation for using the Benchmarking tool
