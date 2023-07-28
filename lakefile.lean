@@ -11,3 +11,6 @@ lean_exe lspec where
 
 lean_exe «lspec-ci» where
   root := `CI
+
+require std from git
+  "https://github.com/leanprover/std4/" @ "main"
